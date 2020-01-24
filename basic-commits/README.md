@@ -17,6 +17,7 @@ fatal: your current branch 'master' does not have any commits yet
 
 3. Create a file
 4. What does the output from `git status` look like now?<br/>
+
 On branch master
 
 No commits yet
@@ -26,7 +27,7 @@ Untracked files:
 
         newfile.txt
 
-nothing added to commit but untracked files present (use "git add" to track)
+nothing added to commit but untracked files present (use "git add" to track)<br/>
 5. `add` the file to the staging area
 6. How does `git status` look now?
 On branch master
