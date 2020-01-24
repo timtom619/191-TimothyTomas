@@ -12,11 +12,11 @@ You can look at the bottom of this file, if you have not yet done basic git conf
 ## The task
 
 1. Use `git status` to see which branch you are on.
-2. What does `git log` look like?
+2. What does `git log` look like?<br/>
 fatal: your current branch 'master' does not have any commits yet
 
 3. Create a file
-4. What does the output from `git status` look like now?
+4. What does the output from `git status` look like now?<br/>
 On branch master
 
 No commits yet
@@ -39,15 +39,15 @@ Changes to be committed:
         new file:   newfile.txt
 
 7. `commit` the file to the repository
-8. How does `git status` look now?
+8. How does `git status` look now?<br/>
 On branch master
 nothing to commit, working tree clean
 
 9. Change the content of the file you created earlier
-10. What does `git status` look like now?
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+10. What does `git status` look like now?<br/>
+On branch master<br/>
+Changes not staged for commit:<br/>
+  (use "git add <file>..." to update what will be committed)<br/>
   (use "git checkout -- <file>..." to discard changes in working directory)
 
         modified:   newfile.txt
@@ -55,36 +55,36 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 11. `add` the file change
-12. What does `git status` look like now?
-On branch master
-Changes to be committed:
+12. What does `git status` look like now?<br/>
+On branch master<br/>
+Changes to be committed:<br/>
   (use "git reset HEAD <file>..." to unstage)
 
         modified:   newfile.txt
 
 13. Change the file again
 14. Make a `commit`
-15. What does the `status` look like now? The `log`?
-Status
+15. What does the `status` look like now? The `log`?<br/>
+## Status
 ---
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+On branch master<br/>
+Changes not staged for commit:<br/>
+  (use "git add <file>..." to update what will be committed)<br/>
   (use "git checkout -- <file>..." to discard changes in working directory)
 
         modified:   newfile.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Log
+## Log
 ---
-commit ffda4ba2a8a7860da0285bbc1df089caf7243727 (HEAD -> master)
-Author: Timothy Tomas <tjtomas@uci.edu>
+commit ffda4ba2a8a7860da0285bbc1df089caf7243727 (HEAD -> master)<br/>
+Author: Timothy Tomas <tjtomas@uci.edu><br/>
 Date:   Thu Jan 23 23:54:14 2020 -0800
 
     another change
 
-commit 76686a5c6df0a8478a06eeb88e29ae08b055e32a
-Author: Timothy Tomas <tjtomas@uci.edu>
+commit 76686a5c6df0a8478a06eeb88e29ae08b055e32a<br/>
+Author: Timothy Tomas <tjtomas@uci.edu><br/>
 Date:   Thu Jan 23 23:50:53 2020 -0800
 
     Initial commit
