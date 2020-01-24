@@ -28,13 +28,14 @@ Untracked files:
         newfile.txt
 
 nothing added to commit but untracked files present (use "git add" to track)<br/>
-5. `add` the file to the staging area
-6. How does `git status` look now?
+5. `add` the file to the staging area<br/>
+6. How does `git status` look now?<br/>
+
 On branch master
 
 No commits yet
 
-Changes to be committed:
+Changes to be committed:<br/>
   (use "git rm --cached <file>..." to unstage)
 
         new file:   newfile.txt
@@ -67,7 +68,6 @@ Changes to be committed:<br/>
 14. Make a `commit`
 15. What does the `status` look like now? The `log`?<br/>
 ## Status
----
 On branch master<br/>
 Changes not staged for commit:<br/>
   (use "git add <file>..." to update what will be committed)<br/>
@@ -77,7 +77,6 @@ Changes not staged for commit:<br/>
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ## Log
----
 commit ffda4ba2a8a7860da0285bbc1df089caf7243727 (HEAD -> master)<br/>
 Author: Timothy Tomas <tjtomas@uci.edu><br/>
 Date:   Thu Jan 23 23:54:14 2020 -0800
