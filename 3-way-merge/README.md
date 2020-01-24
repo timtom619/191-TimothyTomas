@@ -16,8 +16,8 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 7. Add the README.md file to staging area and make the commit
 8. What is the output of `git log --oneline --graph --all`?
 * 9f379b9 (HEAD -> master) Added README.md
-| * 7a5fae7 (greeting) Changed greeting
-|/
+* 7a5fae7 (greeting) Changed greeting
+
 * 986b9ee Add content to greeting.txt
 * e132961 Add file greeting.txt
 
